@@ -27,7 +27,16 @@
         top: 72px;
     }
     .col-3 p {
-        column-count: 2;
-        -moz-column-count:
+        -moz-column-count: 2;
+        -webkit-column-count: 2;
+         column-count: 2;
     }
+    
+}
+
+@media only screen and (max-width: 750px) {
+  
+  
+  
+  
 }
